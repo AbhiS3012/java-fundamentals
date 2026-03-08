@@ -19,7 +19,7 @@ public class Atomic {
 		});
 
 		Thread t2 = new Thread(() -> {
-			for (int i = 0; i < 500; ++i) {
+			for (int i = 0; i < 600; ++i) {
 				count.incrementAndGet();
 			}
 		});
